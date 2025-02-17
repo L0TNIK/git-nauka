@@ -7,13 +7,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>jakub kaminski</h1>
-    <ul>
-      <li>jakub</li>
-      <li>kaminski</li>
-      <li>jakub kaminski</li>
-      <p>warkuszu prosze poka dupe</p>
-      <script src="script.js"></script>
-    </ul>
+    <form method="post">
+      <div class="container">
+        <h3>login</h3>
+        <div class="register">
+          <span>are you new user?</span>
+          <a href="register.html" id="register">register</a>
+        </div>
+        <div class="login">
+          <label for="login">username or email</label>
+          <input type="text" id="login" placeholder="enter login" />
+        </div>
+        <div class="password">
+          <label for="password">password</label>
+          <input type="password" id="password" placeholder="enter password" />
+        </div>
+        <div class="rememberMe">
+          <input type="checkbox" id="rememberMe" />
+          <label for="rememberMe">remember me</label>
+        </div>
+        <div class="forgotPassword">
+          <a href="password.html">forgot password?</a>
+        </div>
+
+        <button type="submit">login</button>\\
+      </div>
+    </form>
   </body>
 </html>
